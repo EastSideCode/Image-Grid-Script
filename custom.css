@@ -1,0 +1,334 @@
+body{
+  background-color: #eee;
+}
+p{
+    font-family: "proxima-nova",sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0px 0px 34px;
+    color: #222620;
+    text-align: center;
+}
+h3 {
+    font-family: "jaf-bernino-sans-narrow",sans-serif;
+    font-stretch: condensed;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.6em;
+    text-align: center;
+    color: #222620;
+    margin-bottom: 0;
+}
+.red > * {
+    color: #8f052a;
+}
+em{
+  font-style: italic;
+  font-size: 1.25em;
+}
+.content{
+  display: block;
+  /*background-color: #e7e8e4;*/
+}
+.container{
+  margin: auto 100px;
+}
+.bios{
+  display: none;
+}
+ul li{
+  list-style-type: none;
+}
+#imageList > li.bio{ 
+    background-color: #fff;
+    padding: 50px;
+    margin: 0px 50px 40px;
+    /*clear: both;
+    float: left;
+    width: 100%;*/
+    position: relative;
+    border-radius: .8em;
+}
+#imageList > li.bio .tri_div {
+    content: '';
+
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #eee;
+    top: 0px;
+}
+#imageList .image{
+    cursor: pointer;
+}
+#imageList .image .pic{
+    position: relative; 
+    margin: 0 20%;
+}
+
+#imageList .image .pic > img {  
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#imageList .image .pic .info, #imageList .image .pic .overlay{
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  text-align: center;
+}
+
+#imageList .image .pic:hover .overlay {    
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color:#000;
+    opacity:0.5;
+    z-index: 100;
+    display: block;
+}
+#imageList .image .pic:hover .info {  
+  z-index: 1000;
+  top: 42%;
+  left: 42%;
+  text-align: center;
+  opacity: 1;
+}
+#imageList .image .pic .info p{  
+  color: white;
+}
+#imageList > li.bio{ 
+    background-color: #fff;
+    padding: 50px;
+    margin: 0px 50px 40px;
+    /*clear: both;
+    float: left;
+    width: 100%;*/
+    position: relative;
+    border-radius: .8em;
+}
+#imageList > li.bio .tri_div {
+    content: '';
+
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #eee;
+    top: 0px;
+}
+#imageList .image{
+    cursor: pointer;
+}
+#imageList .image .pic{
+    position: relative; 
+    margin: 0 20%;
+}
+
+#imageList .image .pic > img {  
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#imageList .image .pic .info, #imageList .image .pic .overlay{
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  text-align: center;
+}
+
+#imageList .image .pic:hover .overlay {    
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color:#000;
+    opacity:0.5;
+    z-index: 100;
+    display: block;
+}
+#imageList .image .pic:hover .info {  
+  z-index: 1000;
+  top: 42%;
+  left: 42%;
+  text-align: center;
+  opacity: 1;
+}
+#imageList .image .pic .info p{  
+  color: white;
+}
+
+/* new */
+
+#imageList2 .image{
+  cursor: pointer;
+}
+#imageList2 .image .pic{
+  position: relative; 
+  margin: 0 20%;
+}
+
+#imageList2 .image .pic > img {  
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+}
+#imageList2 .image .pic .info, #imageList2 .image .pic .overlay{
+opacity: 0;
+position: absolute;
+top: 42%;
+left: 42%;
+text-align: center;
+}
+
+#imageList2 .image .pic:hover .overlay {    
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color:#000;
+  opacity:0.5;
+  z-index: 100;
+  display: block;
+}
+#imageList2 .image .pic:hover .info {  
+z-index: 1000;
+top: 42%;
+left: 42%;
+text-align: center;
+opacity: 1;
+}
+#imageList2 .image .pic .info p{  
+color: white;
+}
+
+#imageList2 > li.bio{ 
+  background-color: #fff;
+  padding: 50px;
+  margin: 0px 50px 40px;
+  /*clear: both;
+  float: left;
+  width: 100%;*/
+  position: relative;
+  border-radius: .8em;
+}
+#imageList2 > li.bio .tri_div {
+  content: '';
+
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid #eee;
+  top: 0px;
+}
+#imageList2 .image{
+  cursor: pointer;
+}
+#imageList2 .image .pic{
+  position: relative; 
+  margin: 0 20%;
+}
+
+#imageList2 .image .pic > img {  
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+}
+#imageList2 .image .pic .info, #imageList2 .image .pic .overlay{
+opacity: 0;
+position: absolute;
+top: 42%;
+left: 42%;
+text-align: center;
+}
+
+#imageList2 .image .pic:hover .overlay {    
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color:#000;
+  opacity:0.5;
+  z-index: 100;
+  display: block;
+}
+#imageList2 .image .pic:hover .info {  
+z-index: 1000;
+top: 42%;
+left: 42%;
+text-align: center;
+opacity: 1;
+}
+#imageList2 .image .pic .info p{  
+color: white;
+}
+
+
+/* end new */
+  
+.image-bio .bio-content { 
+  padding: 30px 0 20px; 
+  border: 1px dashed black;
+  background-color: white;
+  margin-top: 50px; 
+}
+@media screen and (max-width: 600px) { 
+   #imageList > li.image{
+    width: 100%;
+    display: inline-block;
+   }
+
+   #imageList2 > li.image{
+    width: 100%;
+    display: inline-block;
+   }
+}
+
+/* Show three images on devices between 550 and 800px wide */  
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+   #imageList > li.image{
+    width: 49.5%;
+    display: inline-block;
+  }
+
+  #imageList2 > li.image{
+    width: 49.5%;
+    display: inline-block;
+  }
+}
+
+/* Show five images on devices between 800px and 1180pxwide */  
+@media screen and (min-width: 1000px) {
+   #imageList > li.image{
+    width: 33%;
+    display: inline-block;
+   }
+
+   #imageList2 > li.image{
+    width: 33%;
+    display: inline-block;
+   }
+}
+.fadein, .fadeout {
+    opacity: 0;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+.fadein {
+    opacity: 1;
+}
